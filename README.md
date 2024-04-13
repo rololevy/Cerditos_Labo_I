@@ -1,4 +1,6 @@
 # Gran Cerdo
+![image](https://github.com/rololevy/Cerditos_Labo_I/assets/84113089/0754d3d5-312e-4413-ad28-3b0d179882b3)
+
 
 ## Descripción
 Gran Cerdo es un juego de dados para dos participantes en el que intervienen el azar y la codicia. El objetivo general del juego es sumar la mayor cantidad de puntos de victoria en un total de 5 rondas.
@@ -21,7 +23,7 @@ El juego está compuesto por cinco rondas por participante y en cada ronda las p
 
 ### Puntaje Final
 Cuando finalizan las rondas, se determina el puntaje final a partir de los siguientes hitos en el juego.
-
+![image](https://github.com/rololevy/Cerditos_Labo_I/assets/84113089/e54ef836-51da-45c4-9f31-c1cfb1fe6f97)
 - Más trufas en total: 5 PDV
 - Cada 50 trufas: 1 PDV
 - Oink: 2 PDV * Cantidad de Oinks
@@ -31,6 +33,8 @@ Cuando finalizan las rondas, se determina el puntaje final a partir de los sigui
 El juego se ejecuta desde la consola. Para iniciar un nuevo juego, selecciona la opción "JUGAR" desde el menú principal e ingresa los nombres de los participantes. Sigue las instrucciones que aparecen en pantalla durante el juego para tomar decisiones y lanzar los dados.
 
 ## Opciones del Menú Principal
+![image](https://github.com/rololevy/Cerditos_Labo_I/assets/84113089/6d1c20d7-cd9e-4f01-b245-328a478775b4)
+
 - **JUGAR**: Inicia un nuevo juego.
 - **ESTADÍSTICAS**: Muestra el nombre del ganador y la cantidad de puntos de victoria.
 - **CERDITOS**: Muestra los nombres de los integrantes del equipo y sus legajos.
