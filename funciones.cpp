@@ -93,14 +93,16 @@ int ejecutarJuego ()
                 {
                 case 1:
 
-                    if (cantDados==2)
+                    if (cantDados==2 || cantDados == 3)
                     {
                         vec_puntos[i]+=mat_dados[i][0]+mat_dados[i][1];
                     }
                     else
                     {
+
                         vec_puntos[i]+=mat_dados[i][0]+mat_dados[i][1]+mat_dados[i][2];
                     }
+
 
                     cout<<"Las caras son distintas entre si y ninguna es ase";
 
@@ -108,6 +110,15 @@ int ejecutarJuego ()
                     break;
 
                 case 2:
+                   if (cantDados==2 || cantDados == 3)
+                    {
+                        vec_puntos[i]+= (mat_dados[i][0]+mat_dados[i][1])*2;
+                    }
+                    else
+                    {
+
+                        vec_puntos[i]+=mat_dados[i][0]+mat_dados[i][1]+mat_dados[i][2];
+                    }
                     cout<<"Las caras son iguales entre si y no son ases";
                     break;
                 case -1:
