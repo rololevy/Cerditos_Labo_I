@@ -117,7 +117,7 @@ int ejecutarJuego ()
                     else
                     {
 
-                        vec_puntos[i]+=mat_dados[i][0]+mat_dados[i][1]+mat_dados[i][2];
+                        vec_puntos[i]+=(mat_dados[i][0]+mat_dados[i][1]+mat_dados[i][2])*2;
                     }
                     cout<<"Las caras son iguales entre si y no son ases";
                     break;
