@@ -2,26 +2,24 @@
 #include <cstdlib>
 #include <ctime>
 #include <time.h>
-#include "funciones.h"
+
+
+#include <iostream>
 
 
 using namespace std;
 
+#include "ejecutar_juego.h"
 
 int main()
 {
 
-// Aquí deberíamos hacer los llamados a las funciones
-
-    srand(time(NULL));
-
-    int opc=1;
-
-
-    while(opc!=0)
+    while (true)
     {
+        system("cls");
 
-        system ("cls");
+        srand(time(NULL));
+
 
         cout<<"GRAN CERDO" << endl;
         cout<<"------------------"<<endl;
@@ -34,47 +32,53 @@ int main()
 
         cout<<"ANTES DE CONTINUAR POR FAVOR INGRESE UNA OPCION: " << endl;
         cout<<"OPCION: ";
-
+        int opc;
         cin>>opc;
-
+        system ("cls");
         switch (opc)
         {
         case 1:
 
             ejecutarJuego();
 
+
+
             break;
 
         case 2:
             cout<<"EL MAYOR PUNTAJE OBTENIDO CORRESPONDE A: ";
+            system("pause");
             break;
 
         case 3:
             cout<<"DESARROLADORES: " << endl;
             cout<<"----------------------------------" << endl;
-            cout<<"ALUMNO: BIANCHI NICOLAS" << endl;
+            cout<<"ALUMNO: " << endl;
             cout<<"::::::::::::::::::::::::::::::::::" << endl;
-            cout<<"ALUMNO: BALDOCCHI LUIS" << endl;
+            cout<<"ALUMNO: " << endl;
             cout<<"::::::::::::::::::::::::::::::::::" << endl;
-            cout<<"ALUMNO: CATTANEO CARLOS" << endl;
+            cout<<"ALUMNO: " << endl;
             cout<<"::::::::::::::::::::::::::::::::::" << endl;
-            cout<<"ALUMNO: ORLANDO AGUILERA" << endl;
+            cout<<"ALUMNO: " << endl;
             cout<<"::::::::::::::::::::::::::::::::::" << endl;
-            cout<<"ALUMNO: RIOS EVER" << endl;
+            cout<<"ALUMNO: " << endl;
+            system("pause");
             break;
 
         case 0:
-            cout<<"Ingreso un 0 como opcion, estamos saliendo del programa...";
+            cout<<"Gracias por jugar, Adios" << endl;
+            getchar();
+            return 0;
             break;
 
-        default:
-            cout<<"No ingreso una opcion valida."<<endl;
+        default :
+            cout<<"LA OPCION INGRESADA ES INCORRECTA. REINTENTE."<<endl<<endl;
+            system("pause");
             break;
-
         }
-        system("pause");
 
     }
 
     return 0;
 }
+
